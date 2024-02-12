@@ -1,4 +1,97 @@
+
+.active{
+    color: lightblue;
+    background-color: darkblue;
+    font-size: 40px;
+}
+
+p, h3, li, b{
+    color: darkblue
+}
+
+h1{
+    color: lightblue;
+    background: darkblue;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+header, body{
+    background-color: lightblue;
+}
+
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 .gridc{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.gridRecipe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+#welcome{
+    font-size: 35px;
+    text-align: center;
+    margin: 75px 0px 45px 0px;
+}
+
+#indFooter{
+    margin-top:175px;
+    font-size:20px;
+
+}
+
+.divider{
+    border: 5px solid darkblue;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.travelGaller {
+    text-align: center;
+}
+
+
+ol,p{
+    font-size:20px;
+}
+
+.divider > ul, .divider > ol{
+    border: 2px solid darkblue;
+}
+
+.skip{
+    position: absolute;
+    top: -40px;
+}
+
+.skip:focus{
+    top: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animated {
+        display: none;
+    }
 }

@@ -32,15 +32,16 @@ header, body{
 
 
 img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+width: 90%;
+display: block;
+margin-right: auto;
+margin-left: auto;
 }
 
 
 .gridc{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
 
